@@ -1,0 +1,49 @@
+Project name: Bus Reservatioin
+
+Our cuurent goal is to develop an application code which will support the Reservation of Bus tickets 
+Programming Language Used: CPP with Object Oriented
+Authors: MANIDEEP, CHARAN MC
+
+Current Progress achieved:
+ As of now we have completed only basic functions of the code,and many functions are yet to be defined and declared
+ 
+Algorithm followed:( how the application works)
+
+1.Starts here
+//USER LOGIN
+2.Welcome screen appears with signin and signup options
+3.if he chose the sign in the user is prompted with login screen to signin with the account credentials,
+4.If he doesnt have an account earlier,he can choose the sign up option to create new account
+//AFTER Succesfully logging in
+5. Menu appears with the below options (Menus heads as MC BUS Reservation)
+   1.Search Buses
+   2.View Past bookings
+   3.Cancel Ticket
+   
+ Search Bus Option:
+ 1.User is asked to enter and choose the FROM,TO stations and the date of Journey..
+ 2.then the available buses will be shown along with some details like (Journey Timing,Fare,Arrival and Departure Timings,no of seats available)
+ 3.the user may choose any of the available options according to the convience of him
+ 4.after he chooses the bus,he will be displayed with the seats available
+ 5.the user may chose the seat
+ 6.for simplicity there is no any payment interface(LOL the customer is getting free tickets,cheerioo we are doing a free service to the customers)
+ 7.Once the booking is completed,that seat is marked for block and will be recorded as filled.
+ 8.A unique booking id is generated for the ticket and is shown to the user.
+ 
+ View Past Bookings:
+ Every booking is linked to the user id and booking number
+ When this button is clicked all the previous boookings made by the user are shown 
+ 
+ Cancel Ticket:
+ Tickets booked may be canceled 1 day before the date of Journey
+ 1.When this option is choosen,all the bookings whose date of jounery is less than the current next day's date,
+ they will be shown
+ 2.User has to select which booking is to be cancelled
+ 3.once chosen, the selected ticket will stand cancelled
+ 
+ 
+ 
+
+   
+   
+   
